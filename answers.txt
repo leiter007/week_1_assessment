@@ -1,0 +1,51 @@
+#WEEK 1 TECH INTERVIEW#
+
+#1. Variable
+    felix = 'variable'
+
+    Other datatypes
+    - string = "felix"
+    - boolean = true/false
+    - integer
+    - floats
+    - arrays
+    - hashes
+
+#2. Hashes and arrays
+    - Done in IRB
+
+#3. Hashes and arrays
+    - Done in separate folder and file, but code below:
+
+    ```
+class Car
+    attr_accessor :color, :paint
+    def initialize
+        @color = "black"
+    end
+
+    def paint(color)
+        @color = color
+    end
+end
+```
+
+#4. Rspec
+    Q1:
+    - First you create a Gemfile and add rspec as dependency
+    - Then you run bundle install in your terminal
+    - The you initiate rspec with: rspec --init
+    - This creates a hidden .rspec file, as well as a spec folder - to store all tests - and a spec_helper ruby file
+
+    Q2:
+    - Due to the benefits of Test Driven Development:
+        1. It ensures the implemented code is fit for it's purpose
+        2. It makes us more efficient as developers, since it forces us to think about what we want our code to do before we start implementing.
+        3. It reduces debugging time, since development is done incrementally with tests (hopefully) passing as we code along
+        4. In difference to documentation/instructions, testing doesn't get old - it is always monitoring how your code works
+        5. In summary, it ensures our code is sustainable and made to last!
+
+    Q3 + Q4
+    - Done in separate folder and file
+
+LINK TO REPO: 
